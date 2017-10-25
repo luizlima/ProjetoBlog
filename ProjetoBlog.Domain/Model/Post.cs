@@ -14,7 +14,7 @@ namespace ProjetoBlog.Domain.Model
         public String Url { get; set; }
         public int Likes { get; set; }
         public Login PostBy { get; set; }
-        public List<Comment> Comments { get; set; }
-        public List<Tag> Tags { get; set; }
+        public IList<Comment> Comments { get; set; }
+        public IList<Tag> Tags { get; set; }
     }
 }
