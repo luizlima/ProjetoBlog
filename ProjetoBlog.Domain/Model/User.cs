@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +10,8 @@ namespace ProjetoBlog.Domain.Model
 {
     public class User
     {
-        public int UserId { get; set; }
+        [BsonId]
+        public ObjectId UserId { get; set; }
         public String Login { get; set; }
     }
 }
