@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBlog.Domain", "Proje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBlog.WebApi", "ProjetoBlog.WebApi\ProjetoBlog.WebApi.csproj", "{C770EA74-B426-43AD-88F3-8B0BDAB4AD63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBlog.Application", "ProjetoBlog.Application\ProjetoBlog.Application.csproj", "{3AB4B8EF-BC3E-4D86-BEEE-086E572E85BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C770EA74-B426-43AD-88F3-8B0BDAB4AD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C770EA74-B426-43AD-88F3-8B0BDAB4AD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C770EA74-B426-43AD-88F3-8B0BDAB4AD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB4B8EF-BC3E-4D86-BEEE-086E572E85BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB4B8EF-BC3E-4D86-BEEE-086E572E85BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB4B8EF-BC3E-4D86-BEEE-086E572E85BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB4B8EF-BC3E-4D86-BEEE-086E572E85BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
