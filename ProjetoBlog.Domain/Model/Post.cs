@@ -19,5 +19,6 @@ namespace ProjetoBlog.Domain.Model
         public String PostBy { get; set; }
         public IList<Comment> Comments { get; set; }
         public IList<Tag> Tags { get; set; }
+        public DateTime TimePosted { get; set; }
     }
 }

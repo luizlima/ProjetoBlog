@@ -11,7 +11,7 @@ namespace ProjetoBlog.Domain.Model
     public class Comment
     {
         public String Message { get; set; }
-        public DateTime DateTimeMessage { get; set; }
+        public DateTime TimePosted { get; set; }
         public int Likes { get; set; }
         public String ByUser { get; set; }
     }
